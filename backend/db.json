@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Dhuni",
+      "email": "Dhuni@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Mike J",
+      "email": "mike@rediffmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Maximum",
+      "email": "max@yahoo.com"
+    },
+    {
+      "id": "4",
+      "name": "test",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Amit",
+      "email": "amit@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Mike John",
+      "email": "mike@outlook.com"
+    },
+    {
+      "id": "7",
+      "name": "Prateek",
+      "email": "Prateek@gmail.com"
+    }
+  ]
+}
