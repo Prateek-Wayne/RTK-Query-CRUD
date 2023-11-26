@@ -1,9 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { counterReducer } from "./reducers/reducer";
-const store=configureStore({
+import { contactsApi } from "./services/contactsApi";
+
+ const store=configureStore({
     reducer:{
-        counterReducer
-    }
+        [contactsApi.reducerPath]:contactsApi.reducer
+    },
+     middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(contactsApi.middleware),
+
 })
 export default store;
-export type RootState = ReturnType<typeof store.getState>
